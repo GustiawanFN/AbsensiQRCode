@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Sisimangi</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="absensi_sman_garawangi">PLEASE LOGIN</string>
+
+
+    <!-- PETUNJUK SLIDER -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">OK</string>
+
+    <string name="slide_1_title">TEPAT WAKTU</string>
+    <string name="slide_1_desc">HEHEHEHEHE</string>
+
+    <string name="slide_2_title">DISIPLIN</string>
+    <string name="slide_2_desc">IYAIYAIYAIYA</string>
+
+    <string name="slide_3_title">KEMUDAHAN</string>
+    <string name="slide_3_desc">HIYAHIYAHIYAHIYA</string>
+
+    <string name="slide_4_title">PINDAI KODE QR</string>
+    <string name="slide_4_desc">Melakukan presensi semudah memindai Kode QR</string>
+
+    <!-- PENGINGAT HARIAN -->
+    <string name="msgDailyRemain">Good Morning,</string>
+    <string name="msgDailyRemainSore">Good Afternoon,</string>
+
+    <string name="daily_reminder_message">Absensi pagi 15 menit lagi dimulai, jangan sampai telat ya</string>
+    <string name="sore_reminder_message">Absensi sore 15 menit lagi dimulai, jangan sampai telat ya</string>
+
+
+    <!-- SETTING -->
+    <string name="action_settings">Setting</string>
+    <string name="action_about">About</string>
+
+    <string name="bahasa">Change Language</string>
+    <string name="setting">Setting</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="scan">Scan</string>
+    <string name="about">About</string>
+    <string name="instruction">Instruction</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">WELCOME</string>
+    <string name="onReminder">Daily Reminder On</string>
+    <string name="offReminder">Daily Reminder Off</string>
+
+
+</resources>

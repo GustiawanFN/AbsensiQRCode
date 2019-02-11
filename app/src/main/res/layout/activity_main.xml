@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fajarnandagusti.sisimangi.MainActivity">
+    
+    <ImageView
+        android:src="@drawable/a"
+        android:scaleType="fitXY"
+        android:background="#5566e9"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:text="@string/welcome"
+                android:textColor="#ffffff"/>
+
+
+            <TextView
+                android:id="@+id/txtUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Username"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/txtNip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="NIP"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"                tools:text="Status"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                >
+
+                <ImageButton
+                    android:id="@+id/btnAbsensi"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:textSize="17sp"
+                    android:scaleType="center"
+                    android:src="@drawable/scan"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scan"
+                    android:textSize="17sp"
+                    android:textColor="#000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnPetunjuk"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="center"
+                    android:src="@drawable/info" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help"
+                    android:textSize="17sp"
+
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btnTentang"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:textSize="17sp"
+                    android:scaleType="center"
+                    android:src="@drawable/about"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about"
+                    android:textSize="17sp"
+                    android:textColor="#000000"/>
+
+                <ImageButton
+                    android:id="@+id/btnLogout"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:textSize="17sp"
+                    android:scaleType="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/logout"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/logout"
+                    android:textSize="17sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
